@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T18:48:51 IST" name="Suite" finished-at="2023-08-25T18:49:50 IST" duration-ms="58978">
+    <groups>
+    </groups>
+    <test started-at="2023-08-25T18:48:51 IST" name="Test" finished-at="2023-08-25T18:49:50 IST" duration-ms="58978">
+      <class name="StepDefinations.TC03_login_with_valide_credentials_and_place_orders">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:48:52 IST" name="launchApplication" finished-at="2023-08-25T18:49:01 IST" duration-ms="9355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeOrderTest(java.util.HashMap)[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:01 IST" name="placeOrderTest" data-provider="getData" finished-at="2023-08-25T18:49:12 IST" duration-ms="10774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=charym695@gamil.com, Product=ZARA COAT 3, PWD=Chary@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:12 IST" name="closeBrowser" finished-at="2023-08-25T18:49:12 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:12 IST" name="launchApplication" finished-at="2023-08-25T18:49:20 IST" duration-ms="7143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeOrderTest(java.util.HashMap)[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:20 IST" name="placeOrderTest" data-provider="getData" finished-at="2023-08-25T18:49:30 IST" duration-ms="10784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=charym694@gamil.com, Product=ADIDAS ORIGINAL, PWD=Chary@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:30 IST" name="closeBrowser" finished-at="2023-08-25T18:49:31 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:31 IST" name="launchApplication" finished-at="2023-08-25T18:49:38 IST" duration-ms="6900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistryVerification(java.util.HashMap)[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:38 IST" name="orderHistryVerification" data-provider="getData" finished-at="2023-08-25T18:49:40 IST" depends-on-methods="StepDefinations.TC03_login_with_valide_credentials_and_place_orders.placeOrderTest" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=charym695@gamil.com, Product=ZARA COAT 3, PWD=Chary@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistryVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:40 IST" name="closeBrowser" finished-at="2023-08-25T18:49:40 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:40 IST" name="launchApplication" finished-at="2023-08-25T18:49:48 IST" duration-ms="7521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistryVerification(java.util.HashMap)[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:48 IST" name="orderHistryVerification" data-provider="getData" finished-at="2023-08-25T18:49:49 IST" depends-on-methods="StepDefinations.TC03_login_with_valide_credentials_and_place_orders.placeOrderTest" duration-ms="1261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=charym694@gamil.com, Product=ADIDAS ORIGINAL, PWD=Chary@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistryVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinations.TC03_login_with_valide_credentials_and_place_orders@661972b0]" started-at="2023-08-25T18:49:49 IST" name="closeBrowser" finished-at="2023-08-25T18:49:50 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- StepDefinations.TC03_login_with_valide_credentials_and_place_orders -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<groups>
+		<run>
+			<include name="SignUP"></include>
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="Utilities.ITestListners"></listener>
+
+	</listeners>
+
+	<test thread-count="5" name="login_With_ValideDetails">
+		<classes>
+			<class
+				name="StepDefinations.TC01_login_with_valide_credentials" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test thread-count="5" name="login_With_InValideDetails">
+
+		<classes>
+			<class
+				name="StepDefinations.TC02_login_with_invalide_credentials" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="PlaceOrder">
+		<classes>
+			<class
+				name="StepDefinations.TC03_login_with_valide_credentials_and_place_orders" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="SignUp">
+		<classes>
+			<class
+				name="StepDefinations.TC04_SignUp_With_Multiple_Customers" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

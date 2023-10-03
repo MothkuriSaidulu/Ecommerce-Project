@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce">
+		
+	<groups>
+		<run>
+			<include name="errorTest"></include>
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="Utilities.ITestListners"></listener>
+	</listeners>
+	
+	<test thread-count="5" name="ValideLoginTest">
+		<classes>
+			<class
+				name="StepDefinations.TC01_login_with_valide_credentials" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="InValideLoginTest">
+		<classes>
+			<class
+				name="StepDefinations.TC02_login_with_invalide_credentials" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="PlaceOrder">
+		<classes>
+			<class
+				name="StepDefinations.TC03_login_with_valide_credentials_and_place_orders" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
