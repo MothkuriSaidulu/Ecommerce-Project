@@ -36,6 +36,9 @@ public class BaseClass {
 	
 	public WebDriver IntiateBrowser() throws IOException 
 	{
+		// this done by y perosn
+		
+		
 		FileInputStream file = new FileInputStream("config.properties");		
 		Properties property = new Properties();
 		property.load(file);
